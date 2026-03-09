@@ -12,4 +12,17 @@ My first assignment has two parts.
 
 ## (a)
 
+Mustafa Baydoğan and Erdi Daşdemir emphasizes that ındustrial engineering provides a strong foundation for data science through its focus on mathematical modeling and optimization. They highlight that while traditional machine learning requires manual feature extraction, deep learning automates this process; however, traditional methods are often preferred in business for their interpretability and explainability. They illustrate these concepts with practical examples, such as using image processing to prevent wood warping in forestry, forecasting electricity demand to avoid high "imbalance costs" in energy markets, and managing the "chicken-and-egg" problem of biased data in e-commerce ranking algorithms. Finally, they encourage students to embrace a "learning by doing" approach by working on real-world problems and suggests that graduate studies are highly valuable for specializing in the field.
+
 ## (b)
+
+What is the main difference between traditional machine learning and deep learning regarding feature extraction, and why might an industrial engineer prefer traditional methods?
+Answer;  Traditional machine learning requires manual feature extraction, while deep learning automates this process within the model,. Industrial engineers often prefer traditional methods because they are more interpretable and explainable,. This clarity is essential for justifying business decisions, such as credit approvals or inventory levels, to managers and regulators
+
+According to the sources, which of the following best explains the problem of "biased data" in retail ranking algorithms?
+A) Mistakes made when manually entering sales numbers into a computer.
+B) When the algorithm's rankings influence what a user sees and buys, and this influenced data is then used to retrain the same algorithm (a chicken-and-egg problem).
+C) When a deep learning model has too many parameters and forgets the original data.
+D) When Google Trends data shows that no one is searching for a specific product.
+Correct Answer: B <- Ranking algorithms create a feedback loop by influencing user behavior. Using this influenced data to retrain the model leads to a "chicken-and-egg" problem where the system cannot learn true customer preferences
+(I got help from AI for creating the answers)
