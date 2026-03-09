@@ -5,26 +5,21 @@ sidebar: false
 
 # Education
 
--   B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+-   B.S., Industrial Engineering, Hacettepe University, Turkey, 2023 - ongoing.
 
-# Work Experience
-
-## Employements
-
-1.  Firm xxx, position xx, year xxx
-
-2.  Firm yyy, position yyy, year yyy
 
 ## Internships
 
-1.  Firm aaa, position xx, year xxx
+1.  Firm GİMAS AŞ , Machining intern , year 2024 July- 2024 August
 
-2.  Firm bbb, position yyy, year yyy
+2.  Firm POLİBAK Plastic Film , position Metallizer intern , year 2025 August- 2025 June
 
 # Projects
+Currently working on a project in a CMO team but i can't tell anything about it yet.
 
 # Competencies
 
-R, Quarto, Git, Python
+R, Quarto, Git, Python, Matlab, Autocad
 
 # Hobbies
+Swimming, reading, travelling
