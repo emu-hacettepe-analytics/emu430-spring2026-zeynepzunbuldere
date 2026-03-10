@@ -14,7 +14,6 @@ My first assignment has two parts.
 
 Mustafa Baydoğan and Erdi Daşdemir emphasizes that ındustrial engineering provides a strong foundation for data science through its focus on mathematical modeling and optimization. They highlight that while traditional machine learning requires manual feature extraction, deep learning automates this process; however, traditional methods are often preferred in business for their interpretability and explainability. They illustrate these concepts with practical examples, such as using image processing to prevent wood warping in forestry, forecasting electricity demand to avoid high "imbalance costs" in energy markets, and managing the "chicken-and-egg" problem of biased data in e-commerce ranking algorithms. Finally, they encourage students to embrace a "learning by doing" approach by working on real-world problems and suggests that graduate studies are highly valuable for specializing in the field.
 
-## (b)
 
 What is the main difference between traditional machine learning and deep learning regarding feature extraction, and why might an industrial engineer prefer traditional methods?
 Answer;  Traditional machine learning requires manual feature extraction, while deep learning automates this process within the model,. Industrial engineers often prefer traditional methods because they are more interpretable and explainable,. This clarity is essential for justifying business decisions, such as credit approvals or inventory levels, to managers and regulators
@@ -26,3 +25,23 @@ C) When a deep learning model has too many parameters and forgets the original d
 D) When Google Trends data shows that no one is searching for a specific product.
 Correct Answer: B <- Ranking algorithms create a feedback loop by influencing user behavior. Using this influenced data to retrain the model leads to a "chicken-and-egg" problem where the system cannot learn true customer preferences
 (I got help from AI for creating the answers)
+
+## (b)
+
+#install.packages("rmarkdown")
+
+library("dslabs")
+
+data("polls_us_election_2016")
+
+my_first \<- "Zeynep" my_birth_year \<- 2004 k \<- (nchar(my_first)+my_birth_year)%%15+8 print(k) #k is even=8 head(polls_us_election_2016, k) total_nas \<- sum(is.na(polls_us_election_2016)) print(total_nas) na_counts \<- colSums(is.na(polls_us_election_2016)) print(na_counts) top_8_na_cols \<- sort(na_counts, decreasing = TRUE)\[1:8\] #AI helped couldn't figure out by myself print(top_8_na_cols) new_data \<- polls_us_election_2016
+
+numeric_cols \<- sapply(new_data, is.numeric) new_data\[numeric_cols\]\[is.na(new_data\[numeric_cols\])\] \<- my_birth_year + k
+
+char_factor_cols \<- sapply(new_data, function(x) is.character(x) \| is.factor(x))
+
+new_data\[char_factor_cols\] \<- lapply(new_data\[char_factor_cols\], as.character)
+
+new_data\[char_factor_cols\]\[is.na(new_data\[char_factor_cols\])\] \<- paste0(my_first, k)
+
+if (k %% 2 == 0) { head(new_data, k) } else { tail(new_data, k) sum(is.na(new_data)) anyNA(new_data)
