@@ -29,9 +29,12 @@ Correct Answer: B <- Ranking algorithms create a feedback loop by influencing us
 ## (b)
 
 #install.packages("rmarkdown")
+```{r}
+
+```
 
 library("dslabs")
-
+dene
 data("polls_us_election_2016")
 
 my_first \<- "Zeynep" my_birth_year \<- 2004 k \<- (nchar(my_first)+my_birth_year)%%15+8 print(k) #k is even=8 head(polls_us_election_2016, k) total_nas \<- sum(is.na(polls_us_election_2016)) print(total_nas) na_counts \<- colSums(is.na(polls_us_election_2016)) print(na_counts) top_8_na_cols \<- sort(na_counts, decreasing = TRUE)\[1:8\] #AI helped couldn't figure out by myself print(top_8_na_cols) new_data \<- polls_us_election_2016
