@@ -3,7 +3,7 @@ title: "Welcome to Zeynep's Analytics Lab"
 sidebar: false 
 ---
 
-Hello! My name is Zeynep Zünbüldere.
+Hello! My name is Zeynep Zünbüldere...
 
 This is my personal webpage.
 
