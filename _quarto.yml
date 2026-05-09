@@ -5,9 +5,7 @@ project:
 website:
 <<<<<<< HEAD
   title: "Zeynep Zünbüldere 's Analytics Lab"
-=======
-  title: "Zeynep Zünbüldere's Analytics Lab"
->>>>>>> fa46fd1b85b9ab75857359a418597502353f3272
+  
   navbar:
     search: true
     left:
